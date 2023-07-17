@@ -68,16 +68,6 @@ section{
     background-size: cover;
     background-position: center;
 }
-.flexbox-contener{
-    flex-direction: row;
-}
-@media (max-width: 800px) {
-    .flexbox-contener {
-      flex-direction: column;
-    }
-  }
-  
-  
 .home-content{
     max-width: 60rem;
 }
@@ -194,7 +184,16 @@ section{
 .home-sci a:hover::before{
     width: 100%;
 }
-
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and(max-width: 500px) {
+    .flex {
+        display: flex;
+      flex-direction: column;
+    }
+}
 img{
     height: 400px ;
     width: 400px;
