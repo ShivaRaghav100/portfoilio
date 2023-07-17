@@ -184,16 +184,6 @@ section{
 .home-sci a:hover::before{
     width: 100%;
 }
-.flex {
-    display: flex;
-    flex-direction: row;
-}
-@media screen and(max-width: 500px) {
-    .flex {
-        display: flex;
-      flex-direction: column;
-    }
-}
 img{
     height: 400px ;
     width: 400px;
