@@ -282,12 +282,12 @@ span{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border-left:.2rem solid red ;
-    border-right:.2rem solid red ;
+    border-left: .3rem solid red ;
+    border-right: .3rem solid red ;
      
 }
 .circle-spin{
-    animation: aboutSpinner 8s linear infinite;
+    animation: aboutSpinner 0.4s linear infinite;
 }
 .about-content{
     text-align: center;
